@@ -1,0 +1,11 @@
+nohup python /home/ts75080/Desktop/fl-arbitrary-participation/main.py \
+-data cifar \
+-availability periodic \
+-seeds 1,2,3,4,5 \
+-lr-warmup 0.05 \
+-iters-warmup 20000 \
+-iters-total 3000000 \
+-lr 0.00005 \
+-alpha_m 0.2 \
+-lr-global 1.0 \
+-out /home/ts75080/Desktop/fl-arbitrary-participation/cifar_test_results/02/cifar_alg1_no_amplify.csv > test_02_cifar_alg1_no_amplify.log
